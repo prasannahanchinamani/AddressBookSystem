@@ -25,10 +25,8 @@ namespace AddressBookSystem
                 Console.WriteLine("No contacts found in the Address Book.");
                 return;
             }
-<<<<<<< HEAD
-=======
 
->>>>>>> AddContacts
+
             Console.WriteLine("\n--- Address Book Contacts ---");
 
             foreach (var contact in contacts)
@@ -36,7 +34,6 @@ namespace AddressBookSystem
                 Console.WriteLine(contact);
             }
         }
-    }
 
 
         // Edit an existing contact by first name
