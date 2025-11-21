@@ -12,28 +12,28 @@ namespace AddressBookSystem
             contacts = new List<Contacts>();
         }
 
-<<<<<<< HEAD
-
-=======
-        // Add a new contact
->>>>>>> EditContactBasedOnName
         public void AddContact(Contacts contact)
         {
             contacts.Add(contact);
             Console.WriteLine("Contact added successfully!");
         }
-<<<<<<< HEAD
+
         public void DisplayContacts()
         {
-            Console.WriteLine("Dispalaying contacts");
+            if (contacts.Count == 0)
+            {
+                Console.WriteLine("No contacts found in the Address Book.");
+                return;
+            }
+            Console.WriteLine("\n--- Address Book Contacts ---");
+
             foreach (var contact in contacts)
             {
                 Console.WriteLine(contact);
             }
         }
     }
-}
-=======
+
 
         // Edit an existing contact by first name
         public void EditContact(string firstName)
@@ -72,4 +72,4 @@ namespace AddressBookSystem
         }
     }
 }
->>>>>>> EditContactBasedOnName
+
