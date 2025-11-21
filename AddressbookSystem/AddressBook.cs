@@ -14,8 +14,26 @@ namespace AddressBookSystem
 
         public void AddContact(Contacts contact)
         {
-            contacts.Add(contact);
-            Console.WriteLine("Contact added successfully!");
+            bool duplicateFound = false;
+            foreach (var existingContact in contacts)
+            {
+                if ((existingContact.FirstName.ToLower().Equals(contact.FirstName.ToLower())) &&
+                    existingContact.LastName.ToLower().Equals(contact.LastName.ToLower()))
+                {
+                    duplicateFound = true;
+                    break;
+                }
+            }
+            if (duplicateFound)
+            {
+                Console.WriteLine($"Contact {contact.FirstName} {contact.LastName} already exists. Duplicate not added.");
+            }
+            else
+            {
+                contacts.Add(contact);
+                Console.WriteLine("Contact added successfully!");
+            }
+
         }
 
         public void DisplayContacts()
