@@ -20,7 +20,14 @@ namespace AddressBookSystem
         }
         public void DisplayContacts()
         {
-            Console.WriteLine("Dispalaying contacts");
+            if (contacts.Count == 0)
+            {
+                Console.WriteLine("No contacts found in the Address Book.");
+                return;
+            }
+
+            Console.WriteLine("\n--- Address Book Contacts ---");
+
             foreach (var contact in contacts)
             {
                 Console.WriteLine(contact);
