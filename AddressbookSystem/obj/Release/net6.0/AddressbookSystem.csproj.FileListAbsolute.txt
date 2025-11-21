@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Release\net6.0\AddressbookSystem.exe
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Release\net6.0\AddressbookSystem.deps.json
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Release\net6.0\AddressbookSystem.runtimeconfig.json
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Release\net6.0\AddressbookSystem.dll
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Release\net6.0\AddressbookSystem.pdb
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.AssemblyInfo.cs
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.sourcelink.json
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.dll
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\refint\AddressbookSystem.dll
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.pdb
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\AddressbookSystem.genruntimeconfig.cache
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Release\net6.0\ref\AddressbookSystem.dll

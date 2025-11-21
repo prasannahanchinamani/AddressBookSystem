@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressbookSystem\\AddressbookSystem\\AddressbookSystem.csproj": {}
+    "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressBookSystem\\AddressbookSystem\\AddressbookSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressbookSystem\\AddressbookSystem\\AddressbookSystem.csproj": {
+    "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressBookSystem\\AddressbookSystem\\AddressbookSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressbookSystem\\AddressbookSystem\\AddressbookSystem.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressBookSystem\\AddressbookSystem\\AddressbookSystem.csproj",
         "projectName": "AddressbookSystem",
-        "projectPath": "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressbookSystem\\AddressbookSystem\\AddressbookSystem.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressBookSystem\\AddressbookSystem\\AddressbookSystem.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressbookSystem\\AddressbookSystem\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DOTNETANDCSHARP\\AddressBookSystem\\AddressbookSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
