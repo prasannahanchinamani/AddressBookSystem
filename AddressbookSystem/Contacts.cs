@@ -48,29 +48,14 @@ namespace AddressBookSystem
         public int Zip
         {
             get { return zip; }
-            set
-            {
-             
-                if (value.ToString().Length == 6)
-                    zip = value;
-                else
-                    throw new ArgumentException("Zip code must be exactly 6 digits.");
-            }
+            set { zip = value; }
         }
 
         public long PhoneNumber
         {
             get { return phoneNumber; }
-            set
-            {
-               
-                if (value.ToString().Length == 10)
-                    phoneNumber = value;
-                else
-                    throw new ArgumentException("Phone number must be exactly 10 digits.");
-            }
+            set { phoneNumber = value; }
         }
-
 
         public string Email
         {
