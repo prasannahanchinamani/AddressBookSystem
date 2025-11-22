@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 namespace AddressBookSystem
 {
-    public class AddressBook
+    // Inheritance: AddressBook implements IAddressBook
+    public class AddressBook : IAddressBook
     {
         private List<Contacts> contacts;
 
@@ -12,18 +13,20 @@ namespace AddressBookSystem
             contacts = new List<Contacts>();
         }
 
+        // Implementation of AddContact
         public void AddContact(Contacts contact)
         {
             bool duplicateFound = false;
             foreach (var existingContact in contacts)
             {
-                if ((existingContact.FirstName.ToLower().Equals(contact.FirstName.ToLower())) &&
+                if (existingContact.FirstName.ToLower().Equals(contact.FirstName.ToLower()) &&
                     existingContact.LastName.ToLower().Equals(contact.LastName.ToLower()))
                 {
                     duplicateFound = true;
                     break;
                 }
             }
+
             if (duplicateFound)
             {
                 Console.WriteLine($"Contact {contact.FirstName} {contact.LastName} already exists. Duplicate not added.");
@@ -33,9 +36,9 @@ namespace AddressBookSystem
                 contacts.Add(contact);
                 Console.WriteLine("Contact added successfully!");
             }
-
         }
 
+        // Implementation of DisplayContacts
         public void DisplayContacts()
         {
             if (contacts.Count == 0)
@@ -44,21 +47,22 @@ namespace AddressBookSystem
                 return;
             }
 
-
             Console.WriteLine("\n--- Address Book Contacts ---");
-
             foreach (var contact in contacts)
             {
                 Console.WriteLine(contact);
             }
         }
 
-
-        // Edit an existing contact by first name
-        public void EditContact(string firstName)
+        // Implementation of EditContact
+        public void EditContact(string firstName, string lastName)
         {
             firstName = firstName.ToLower();
-            Contacts contactToEdit = contacts.Find(c => c.FirstName.ToLower().Equals(firstName));
+            lastName = lastName.ToLower();
+
+            Contacts contactToEdit = contacts.Find(c =>
+                c.FirstName.ToLower().Equals(firstName.ToLower()) &&
+                c.LastName.ToLower().Equals(lastName.ToLower()));
 
             if (contactToEdit != null)
             {
@@ -86,9 +90,29 @@ namespace AddressBookSystem
             }
             else
             {
-                Console.WriteLine($"Contact with name '{firstName}' not found.");
+                Console.WriteLine($"Contact {firstName} {lastName} not found.");
+            }
+        }
+
+        // Implementation of DeleteContact
+        public void DeleteContact(string firstName, string lastName)
+        {
+            firstName = firstName.ToLower();
+            lastName = lastName.ToLower();
+
+            Contacts contactToDelete = contacts.Find(c =>
+                c.FirstName.ToLower().Equals(firstName) &&
+                c.LastName.ToLower().Equals(lastName));
+
+            if (contactToDelete != null)
+            {
+                contacts.Remove(contactToDelete);
+                Console.WriteLine($"Contact {firstName} {lastName} deleted successfully!");
+            }
+            else
+            {
+                Console.WriteLine($"Contact {firstName} {lastName} not found.");
             }
         }
     }
 }
-

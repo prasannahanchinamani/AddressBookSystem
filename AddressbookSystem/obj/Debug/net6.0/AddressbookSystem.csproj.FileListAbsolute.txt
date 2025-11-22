@@ -8,3 +8,8 @@ C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\De
 C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Debug\net6.0\AddressbookSystem.dll
 C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Debug\net6.0\refint\AddressbookSystem.dll
 C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Debug\net6.0\AddressbookSystem.pdb
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Debug\net6.0\AddressbookSystem.deps.json
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Debug\net6.0\AddressbookSystem.runtimeconfig.json
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\bin\Debug\net6.0\AddressbookSystem.pdb
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Debug\net6.0\AddressbookSystem.genruntimeconfig.cache
+C:\Users\User\Desktop\DOTNETANDCSHARP\AddressBookSystem\AddressbookSystem\obj\Debug\net6.0\ref\AddressbookSystem.dll
